@@ -13,7 +13,7 @@
   
     <a href="/" class="nav-option">Home</a>
   
-    <a href="/projects.html" class="nav-option">Projects</a>
+    <a href="/resume.html" class="nav-option">Resume</a>
   
     <a href="/blog.html" class="nav-option">Blog</a>
   
@@ -32,35 +32,37 @@
 
 <p>Outside of programming I love to spend time outdoors (snowboarding, mountain biking) and enjoy learning the guitar</p>
 
-<h1 id="education">Education</h1>
 
-<p>4th year student studying at UBC (Expected Graduation Date: APril 2026)</p>
 
-<p>GPA 4.0/4.33</p>
 
-<h1 id="work-experience">Work Experience</h1>
+  <h1>Projects</h1>
+  <ul>
 
-<p>Huawei Canada (September 2022 - 2024)</p>
+  
+    <li>
+      <h2><a href="https://github.com/GanidhuAbey/Antuco/tree/pbr">Antuco - C++</a></h2>
+      <p><p>A Vulkan-based C++ renderer.</p>
 
-<p>Worked on developing new techonlogy on top of open source game engine “O3DE” that was worked on in partnership with Amazon. My role involved developing a high-quality real-time hair rendering system that rivalled industry competitors (e.g. Unreal, EA, Unity, etc.). Some of my notable contributions are listed below:</p>
+<p>Supports PBR lighting (with multiple materials), shadow mapping, and model loading.</p>
+</p>
+      
+      <img src="assets/images/antuco/microfacet_specular.JPG" class="display-image">
+      
+      <img src="assets/images/antuco/bmw_render.png" class="display-image">
+      
+      <img src="assets/images/antuco/shadows.png" class="display-image">
+      
+    </li>
+  
+    <li>
+      <h2><a href="https://github.com/GanidhuAbey/fluidsimulation">Fluid Simulation - Rust</a></h2>
+      <p><p>A 2D fluid simulation based on the paper “Stable Fluids” by Jos Stam.</p>
+</p>
+      
+    </li>
+  
 
-<ul>
-  <li>
-    <p>Implemented new shadow mapping technique to resolve shadow resolution issues for hair shadows. Achieved a 16x visual improvement in terms of of shadow resolution while maintaining similar performance.</p>
-  </li>
-  <li>
-    <p>Re-hauled hair shadow system to account for semi-transparency of hair strands. New system improved the visual accuracy of hair shadows, eliminating 90% of visual error previously visible on curly hair assets.</p>
-  </li>
-  <li>
-    <p>Optimized shaders in the hair system. Reduced memory overhead by effectively re-using dynamic read-write memory when possible, removing dynamic branches, and optimized memory accesses. These optimizations contributed to a 20-30% performance improvement and reduced memory footprint by 50MB.</p>
-  </li>
-  <li>
-    <p>Improved upon the TressFX simulation length constraint algorithm. New simulation maintained original hair volume 30% more effectively under extreme movement.</p>
-  </li>
-  <li>
-    <p>Worked on mobile development with advanced hair rendering. Optimized hair rendering system for mobile by moving to half-floats, reducing memory usage, and simplifying existing lighting algorithms. Achieved interactive frame rates while maintaining PC level quality.</p>
-  </li>
 </ul>
 
-  </body>
+</body>
 </html>
