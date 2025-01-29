@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  line-height: 2em;
+  font-size: 0.9em;
+}
+
+.current {
+  color: white;
+  background-color: black;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px; /* Space between boxes */
+  justify-content: center; /* Align horizontally */
+  align-items: center; /* Align vertically */
+  padding: 20px;
+}
+
+.nav-option {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Make <a> appear as <div> */
+  background-color: black; /* Black background */
+  color: white; /* Text color */
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.nav-option:hover {
+  background-color: #45a049; /* Green on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.display-image {
+  max-width: 20%;
+  height: auto;
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
