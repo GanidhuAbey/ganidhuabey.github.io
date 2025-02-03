@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <header class="wrapper"> 
+    <div>
+      {% include header.html %}
+      {% include navigation.html %}
+      <hr>
+    </div>
+  </header>
+  <body class="wrapper">
+    {{ content }}
+
+  {% include projects.html %}
+</body>
+</html>

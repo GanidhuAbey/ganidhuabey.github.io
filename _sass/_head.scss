@@ -1,0 +1,64 @@
+
+.page-header {
+  padding-bottom: 20px;
+}
+
+.section-header {
+  padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Aligns text vertically */
+    gap: 20px; /* Adds spacing between name and contact info */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-line {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    margin-top: 5px; /* Space between name and icons */
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+    stroke: green;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.contact hover {
+    text-decoration: underline;
+}

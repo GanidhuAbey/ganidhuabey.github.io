@@ -1,0 +1,12 @@
+
+
+<h1 class="section-header">Projects</h1>
+
+{% for project in site.projects %}
+  <h2><a href="{{project.link}}" class="project-header">{{project.name}} - {{project.language}}</a></h2>
+  <p class="project-summary">{{project.content | markdownify}}</p>
+  {% for path in project.images %}
+    <img src="{{path}}" class="display-image">
+  {% endfor %}
+{% endfor %}
+

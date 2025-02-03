@@ -50,6 +50,10 @@ body {
   border-left: 30px solid #fff;
 }
 
+.page-header {
+  padding-bottom: 20px;
+}
+
 .section-header {
   padding-top: 20px;
 }
