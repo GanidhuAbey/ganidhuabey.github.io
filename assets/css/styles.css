@@ -46,8 +46,89 @@ body {
   height: auto;
 }
 
+.indent {
+  border-left: 30px solid #fff;
+}
+
+.section-header {
+  padding-top: 20px;
+}
+
 .header {
-  padding-bottom: 20px;
+  display: flex;
+  align-items: center; /* Aligns text vertically */
+  gap: 20px; /* Adds spacing between name and contact info */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-line {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  margin-top: 5px; /* Space between name and icons */
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+  stroke: green;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-size: 14px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.contact hover {
+  text-decoration: underline;
+}
+
+.project-header {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Make <a> appear as <div> */
+  background-color: black; /* Black background */
+  color: white; /* Text color */
+  padding: 12px 10px;
+  text-align: center;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.project-header:hover {
+  background-color: #45a049; /* Green on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.project-summary {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
