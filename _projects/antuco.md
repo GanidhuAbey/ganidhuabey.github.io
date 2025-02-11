@@ -1,7 +1,7 @@
 ---
 name: Antuco
 language: C++
-link: https://github.com/GanidhuAbey/Antuco/tree/pbr
+link: https://github.com/GanidhuAbey/Antuco
 ---
 
 A Vulkan-based C++ renderer. This project is 3D real-time renderer with a full PBR workflow:
