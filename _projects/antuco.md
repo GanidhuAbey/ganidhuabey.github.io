@@ -14,10 +14,12 @@ Multi-PBR materials:
 Complex Models:
 
 Damaged Helmet ([model](https://github.com/KhronosGroup/glTF-Sample-Models/tree/main))
+
 <img src="https://ganidhuabey.github.io/assets/images/Antuco/damagedHelmet_v3.png" class="display-image indent">
 
 
-Gun ([model](artisaverb.info/PBT.html) by Andrew Maximov)
+Gun ([model](https://artisaverb.info/PBT.html) by Andrew Maximov)
+
 <img src="https://ganidhuabey.github.io/assets/images/Antuco/Gun.png" class="display-image indent">
 
 
